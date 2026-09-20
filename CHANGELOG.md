@@ -1,5 +1,17 @@
 # Changelog
 
+## V6 — Abdul memorial portrait responsiveness
+
+- Constrained the memorial photo and text section to a comfortable reading width, with a 40/60 two-column split from the existing tablet breakpoint and a smaller gap at tablet sizes.
+- Limited Abdul’s desktop portrait to a controlled 4:5 crop and 28rem maximum height, keeping his face in view. On mobile the unchanged image appears above the text at full available width with its original square framing.
+- Preserved all memorial copy, the image file, bilingual behavior, and the existing visual style.
+
+## V6 — Bilingual BM/English option
+
+- Added a compact BM | EN selector to the shared header on all eight pages. BM remains the default; manual choices persist in `localStorage` and `?lang=bm` / `?lang=en` override and save the preference.
+- Added one English translation dictionary in `dist/assets/site.js` for page copy, accessible labels, image descriptions, page titles, and meta descriptions. The existing BM HTML remains the source copy, and the locked brand and Abdul memorial lines remain unchanged.
+- Kept the existing layout and mobile navigation, with only small selector styles and a scrollable mobile menu. No new dependency, page copy architecture, or deployment change was added.
+
 ## V6 — Favicon asset version
 
 - Renamed the unchanged PK artwork from `dist/assets/favicon.svg` to `dist/assets/favicon-v2.svg` and updated all eight HTML favicon references to refresh browser caches.

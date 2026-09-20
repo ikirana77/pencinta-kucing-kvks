@@ -55,6 +55,13 @@ Never publish exact nest or hiding locations, private phone numbers or conversat
 
 GitHub will be the source of truth for future changes. `dist/` contains the deployable static site and must remain tracked. Production changes should originate from this repository rather than direct cPanel edits. Credentials must never be committed; store them only in GitHub Secrets when deployment is configured. The transport to `cats.ekvks.com` is not yet finalized. See `DEPLOYMENT.md` and the validation-only `.github/workflows/deploy.yml` scaffold.
 
+## Bilingual Language System
+
+- BM is the first-visit default. English is optional and is never selected from browser language settings.
+- A visitor's manual BM/EN choice is stored locally under `pkkvks-language` and restored on later pages and visits.
+- `?lang=bm` and `?lang=en` override the saved choice and update it. A manual switch keeps an existing query parameter in sync.
+- The eight pages remain one static HTML set with BM source copy. A centralized dictionary in `dist/assets/site.js` supplies English text, accessible labels, page titles, and meta descriptions. No duplicated page architecture or framework is used.
+
 ## Directory and file structure at receipt
 
 ```text
