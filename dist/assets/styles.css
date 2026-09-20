@@ -209,9 +209,9 @@ p { margin: 0 0 1.25rem; }
 
 .memorial-page { background: #f1e5d2; }.memorial-hero { padding-block: 4rem 5rem; background: #33251e; color: #f8ead8; }.memorial-hero-inner { display: grid; gap: 2.5rem; align-items: center; }.memorial-monogram { width: min(70vw, 20rem); aspect-ratio: 1; display: grid; place-items: center; border: 1px solid #b48561; border-radius: 50%; color: #d79561; font-family: var(--serif); font-size: 10rem; }.memorial-lede { color: #c9b9a9; font-size: 1.1rem; }
 .memorial-quote { padding-block: 4rem; background: var(--orange); color: white; }.memorial-quote blockquote { margin: 0; font-size: clamp(2.25rem, 7vw, 5.3rem); font-weight: 500; letter-spacing: -.045em; }
-.memorial-body { display: grid; gap: 3rem; max-width: 63.75rem; padding-block: 5rem; }
-.memorial-photo { min-width: 0; margin: 0; overflow: hidden; border-radius: 1rem; background: #d5b88e; box-shadow: var(--shadow); }
-.memorial-photo img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 55% 35%; }
+.memorial-body { display: grid; grid-template-columns: 1fr; gap: 3rem; max-width: 63.75rem; padding-block: 5rem; }
+.memorial-body .memorial-photo { width: 100%; max-width: 100%; min-width: 0; margin: 0; overflow: hidden; border-radius: 1rem; background: #d5b88e; box-shadow: var(--shadow); }
+.memorial-body .memorial-photo img { display: block; width: 100%; height: auto; max-height: none; aspect-ratio: 4 / 5; object-fit: cover; object-position: 55% 35%; }
 .memorial-photo figcaption { padding: .8rem 1rem; color: #5c493b; background: #ead4b7; font-size: .78rem; }.memorial-body article h2 { font-size: clamp(2.2rem, 5vw, 4rem); }.legacy-band { padding-block: 5rem; background: var(--sage-dark); color: white; }.legacy-band h2 { font-size: clamp(2.5rem, 7vw, 5.5rem); }.legacy-band p:last-child { color: #dce5d7; }.memorial-close { padding-block: 5rem; text-align: center; }.memorial-close > span { display: block; margin-bottom: 1.5rem; color: var(--orange); font-size: 2rem; }.memorial-close p { max-width: 42rem; margin-inline: auto; font-family: var(--serif); font-size: 1.6rem; }
 
 .rules-band { padding-block: 5rem; background: var(--charcoal); color: #fff8ec; }.rules-grid { display: grid; gap: 2.5rem; }.rules-grid article { padding-top: 1rem; border-top: 1px solid #5a5750; }.rules-grid span { color: var(--sand); font-size: .72rem; }.rules-grid h2 { margin: 1rem 0; font-size: 2rem; }.rules-grid p { color: #bdb8ae; }
@@ -257,8 +257,8 @@ p { margin: 0 0 1.25rem; }
   .story-to-memorial, .conduct-split, .about-grid, .scope-table { grid-template-columns: 1fr 1fr; }
   .memorial-hero-inner { grid-template-columns: 20rem 1fr; }
   .memorial-body { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); align-items: center; gap: 2rem; }
-  .memorial-photo { max-width: 22rem; }
-  .memorial-photo img { height: 100%; max-height: 28rem; aspect-ratio: 4 / 5; }
+  .memorial-body .memorial-photo { max-width: 22rem; justify-self: start; }
+  .memorial-body .memorial-photo img { max-height: 28rem; }
   .rules-grid { grid-template-columns: repeat(2, 1fr); }
   .scope-rows > div { grid-template-columns: 1.2fr 1fr; align-items: center; }
 }

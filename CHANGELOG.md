@@ -1,5 +1,10 @@
 # Changelog
 
+## V6 — Deployed Abdul memorial image sizing
+
+- Made the Abdul memorial photo and image selectors more specific, with an explicit single-column mobile layout, a 4:5 image ratio, and a 22rem photo width and 28rem image height cap from the existing tablet breakpoint.
+- Changed all eight pages to request `assets/styles.css?v=3` so browsers fetch the updated stylesheet after deployment. The stylesheet filename, memorial image, wording, bilingual system, and other page layouts are unchanged.
+
 ## V6 — Abdul memorial portrait responsiveness
 
 - Constrained the memorial photo and text section to a comfortable reading width, with a 40/60 two-column split from the existing tablet breakpoint and a smaller gap at tablet sizes.
