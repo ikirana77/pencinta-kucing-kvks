@@ -1,0 +1,33 @@
+# Local OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor backups and temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Local logs
+*.log
+
+# Local secrets and deployment credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+secrets/
+.secrets/
+.vscode/sftp.json
+.vscode/ftp-sync.json

@@ -1,0 +1,44 @@
+# Validation-only deployment scaffold. No files are uploaded by this workflow.
+# The deployment transport will be chosen after confirming cPanel support:
+# FTP/FTPS, SFTP, SSH/rsync, or cPanel Git deployment.
+name: Prepare static deployment
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out production-ready source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Verify deployment source
+        run: |
+          test -f dist/index.html
+          test -f dist/assets/styles.css
+          test -f dist/assets/site.js
+
+      # These are generic GitHub Secrets placeholders, not real credentials.
+      # Replace them with transport-specific secret names only after selecting
+      # and reviewing the hosting method. Never print their values to logs.
+      - name: Check future deployment configuration
+        env:
+          DEPLOY_TARGET: ${{ secrets.DEPLOY_TARGET }}
+          DEPLOY_CREDENTIAL: ${{ secrets.DEPLOY_CREDENTIAL }}
+        run: |
+          if [ -z "$DEPLOY_TARGET" ] || [ -z "$DEPLOY_CREDENTIAL" ]; then
+            echo "Deployment skipped: required GitHub Secrets are not configured."
+            exit 0
+          fi
+          echo "Deployment skipped: transport is not configured yet."
+
+      # Future implementation: deploy ONLY the contents of dist/ after the
+      # selected transport and required GitHub Secrets have been reviewed.
