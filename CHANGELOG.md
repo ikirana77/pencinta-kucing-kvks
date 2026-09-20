@@ -1,5 +1,9 @@
 # Changelog
 
+## V6 — Favicon asset version
+
+- Renamed the unchanged PK artwork from `dist/assets/favicon.svg` to `dist/assets/favicon-v2.svg` and updated all eight HTML favicon references to refresh browser caches.
+
 ## V6 — Custom PK favicon
 
 - Added a self-contained `PK` SVG favicon using the existing burnt-orange and warm-ivory brand colours.
