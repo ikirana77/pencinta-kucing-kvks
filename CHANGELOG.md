@@ -1,5 +1,10 @@
 # Changelog
 
+## V6 — Custom PK favicon
+
+- Added a self-contained `PK` SVG favicon using the existing burnt-orange and warm-ivory brand colours.
+- Replaced the inline paw favicon reference on all eight static HTML pages with `assets/favicon.svg`; no visible page content or behavior changed.
+
 ## V6 — GitHub deployment preparation
 
 - Initialized Git on `main` in the existing project root and added a minimal `.gitignore` that keeps `dist/` tracked.
