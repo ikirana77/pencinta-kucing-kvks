@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wafiyjameel/cats.ekvks.com/
+    - /bin/rm -rf ${DEPLOYPATH}*
+    - /bin/cp -R dist/* ${DEPLOYPATH}
