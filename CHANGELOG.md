@@ -1,5 +1,10 @@
 # Changelog
 
+## V6 — Abdul story chronology correction
+
+- Corrected the Our Story account to say students were asked to inform lecturers while Abdul was being sought, before Pencinta Kucing KVKS existed.
+- Clarified that lecturers or other KVKS people may have had resources to help, and that the experience later revealed the need for a clearer community communication channel. Updated the matching English translations without changing the memorial page or its locked line.
+
 ## V6 — Deployed Abdul memorial image sizing
 
 - Made the Abdul memorial photo and image selectors more specific, with an explicit single-column mobile layout, a 4:5 image ratio, and a 22rem photo width and 28rem image height cap from the existing tablet breakpoint.
