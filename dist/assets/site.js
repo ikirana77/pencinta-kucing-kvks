@@ -308,10 +308,10 @@
         bm: ['Mama ialah ibu kucing hitam berusia anggaran sekitar satu tahun dan merupakan salah seekor resident cat di KVKS. Mama mudah dikenali dengan satu ciri istimewa — kaki belakang kirinya kudung. Walaupun begitu, Mama masih bergerak sendiri dan menjalani kehidupan seperti biasa di sekitar kawasan kolej.', 'Mama tidak suka didukung, jadi sebaiknya beri dia ruang dan jangan paksa mengangkatnya. Namun, jika didekati dengan tenang, Mama okay untuk dibelai.'],
         en: ['Mama is an approximately one-year-old black mother cat and one of KVKS’s resident cats. She can be recognised by her amputated left hind leg. Despite this, Mama moves around independently and continues her daily life around the college.', 'Mama does not like being picked up, so please give her space and avoid lifting her. She is, however, comfortable with gentle petting when approached calmly.']
       },
-      badges: { bm: ['Boleh dibelai', 'Tidak suka didukung'], en: ['Okay to pet', 'Does not like being carried'] },
+      badges: { bm: ['Boleh dibelai', 'Tidak boleh didukung'], en: ['Okay to pet', 'Do not carry'] },
       facts: {
-        bm: [['Anggaran umur', 'Sekitar 1 tahun'], ['Bulu', 'Hitam sepenuhnya'], ['Jantina', 'Betina'], ['Ciri khas', 'Kaki belakang kiri kudung'], ['Boleh dibelai', 'Ya'], ['Suka didukung', 'Tidak'], ['Status', 'Ibu kucing'], ['Kawasan biasa dilihat', 'Belum direkodkan'], ['Status spay', 'Belum diketahui']],
-        en: [['Estimated age', 'Approximately 1 year old'], ['Coat', 'Solid black'], ['Sex', 'Female'], ['Distinctive feature', 'Amputated left hind leg'], ['Okay to pet', 'Yes'], ['Likes being carried', 'No'], ['Status', 'Mother cat'], ['Usual area', 'Not yet recorded'], ['Spay status', 'Unknown']]
+        bm: [['Anggaran umur', 'Sekitar 1 tahun'], ['Bulu', 'Hitam sepenuhnya'], ['Jantina', 'Betina'], ['Ciri khas', 'Kaki belakang kiri kudung'], ['Boleh dibelai', 'Ya'], ['Boleh didukung', 'Tidak'], ['Status', 'Ibu kucing'], ['Kawasan biasa dilihat', 'Belum direkodkan'], ['Status spay', 'Belum diketahui']],
+        en: [['Estimated age', 'Approximately 1 year old'], ['Coat', 'Solid black'], ['Sex', 'Female'], ['Distinctive feature', 'Amputated left hind leg'], ['Okay to pet', 'Yes'], ['Okay to carry', 'No'], ['Status', 'Mother cat'], ['Usual area', 'Not yet recorded'], ['Spay status', 'Unknown']]
       },
       guidance: { bm: ['Cara Mendekati Mama', 'Dekati Mama secara perlahan dan beri dia peluang untuk membiasakan diri terlebih dahulu. Mama boleh dibelai dengan lembut, tetapi jangan cuba mendukungnya.'], en: ['How to Approach Mama', 'Approach Mama slowly and give her time to become comfortable with your presence. Gentle petting is okay, but please do not try to pick her up.'] },
       action: { bm: 'Nampak perubahan pada Mama?', en: 'Noticed a change in Mama?' },
@@ -459,6 +459,8 @@
     const guidanceHeading = document.querySelector('[data-profile-guidance-heading]');
     const guidance = document.querySelector('[data-profile-guidance]');
     const actionHeading = document.querySelector('[data-profile-action-heading]');
+    const portraitNodes = [primaryImage?.closest('.profile-photo-frame'), detailFigure].filter(Boolean);
+    portraitNodes.forEach((node) => node.classList.toggle('profile-portrait', profile === profileRecords.mama));
     if (primaryImage) { primaryImage.src = profile.images.primary; primaryImage.alt = profile.alt[language]; }
     if (detailFigure && detailImage) {
       detailFigure.hidden = !profile.images.detail;

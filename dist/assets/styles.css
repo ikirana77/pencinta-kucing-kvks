@@ -172,6 +172,8 @@ p { margin: 0 0 1.25rem; }
 .profile-layout { display: grid; gap: 2.5rem; align-items: center; }
 .profile-photo-frame { min-width: 0; margin: 0; overflow: hidden; border-radius: 1rem; background: var(--ivory); box-shadow: var(--shadow); }
 .profile-photo-frame img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }
+.profile-photo-frame.profile-portrait img,
+.profile-detail-photo.profile-portrait img { height: auto; aspect-ratio: auto; object-fit: contain; object-position: center; }
 .profile-large { min-height: 26rem; }
 .profile-title h1 { margin: 1rem 0; font-family: var(--serif); font-size: clamp(3.2rem, 9vw, 6.5rem); font-weight: 500; letter-spacing: -.055em; line-height: .98; }
 .profile-title p { max-width: 35rem; color: var(--muted); }

@@ -1,5 +1,10 @@
 # Changelog
 
+## V6 — Mama portrait profile rendering
+
+- Preserved Mama’s portrait aspect ratio on the full profile and detail image views so the photograph is not aggressively cropped or zoomed.
+- Corrected Mama’s interaction facts to show `Boleh dibelai: Ya` and `Boleh didukung: Tidak`, with clear separation from the interaction badges.
+
 ## V6 — Directory cleanup and Mama photograph
 
 - Removed the duplicate placeholder cards for the unnamed black cat and black kitten after confirming Mama and Citam.
