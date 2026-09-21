@@ -73,13 +73,10 @@
     'Maklumat kucing akan dikemas kini apabila disahkan.': 'Cat information will be updated when verified.',
     'DALAM KENANGAN': 'IN MEMORY',
     'Berbulu oren dengan bahagian dada lebih cerah.': 'Orange fur with a lighter chest.',
-    'Kucing hitam': 'Black cat',
     'Berbulu hitam dan bermata jingga.': 'Black fur and orange eyes.',
     'Nama panggilan': 'Known name',
     'Belum diketahui': 'Not yet known',
     'Kawasan umum': 'General area',
-    'Anak kucing hitam': 'Black kitten',
-    'Anak kucing berbulu hitam.': 'A kitten with black fur.',
     'Berbulu hitam putih, dengan dada dan kaki putih.': 'Black-and-white fur, with a white chest and paws.',
     'Resident Cat · Ibu Kucing · ±1 Tahun': 'Resident Cat · Mother Cat · Approx. 1 Year',
     'Boleh dibelai, tetapi Mama sangat jelas tentang satu perkara — jangan dukung dia. 😸': 'Gentle pets are welcome, but Mama is very clear about one thing — no carrying, please. 😸',
@@ -306,7 +303,7 @@
     mama: {
       title: 'Mama', subtitle: { bm: 'Resident Cat · Ibu Kucing · Hitam', en: 'Resident Cat · Mother Cat · Black' }, status: { bm: 'Ibu kucing', en: 'Mother cat' },
       alt: { bm: 'Mama, ibu kucing hitam resident cat KVKS', en: 'Mama, a black mother cat and KVKS resident cat' },
-      images: { primary: 'assets/images/cats/mama-profile.jpg', detail: 'assets/images/cats/mama-detail.jpg' },
+      images: { primary: 'assets/images/cats/mama-profile.jpg', detail: 'assets/images/cats/mama-profile.jpg' },
       intro: {
         bm: ['Mama ialah ibu kucing hitam berusia anggaran sekitar satu tahun dan merupakan salah seekor resident cat di KVKS. Mama mudah dikenali dengan satu ciri istimewa — kaki belakang kirinya kudung. Walaupun begitu, Mama masih bergerak sendiri dan menjalani kehidupan seperti biasa di sekitar kawasan kolej.', 'Mama tidak suka didukung, jadi sebaiknya beri dia ruang dan jangan paksa mengangkatnya. Namun, jika didekati dengan tenang, Mama okay untuk dibelai.'],
         en: ['Mama is an approximately one-year-old black mother cat and one of KVKS’s resident cats. She can be recognised by her amputated left hind leg. Despite this, Mama moves around independently and continues her daily life around the college.', 'Mama does not like being picked up, so please give her space and avoid lifting her. She is, however, comfortable with gentle petting when approached calmly.']

@@ -145,6 +145,7 @@ p { margin: 0 0 1.25rem; }
 .directory-grid { display: grid; gap: 1.2rem; }
 .directory-card { overflow: hidden; border: 1px solid var(--line); border-radius: 1rem; background: var(--white); }
 .directory-card-photo { width: 100%; height: 18rem; object-fit: cover; }
+.directory-card-photo.mama-card-photo { object-position: 50% 38%; }
 .directory-card > a { display: block; color: inherit; text-decoration: none; }
 .directory-card > a:hover .card-link { color: var(--orange-dark); }
 .profile-photo-placeholder { min-height: 18rem; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; padding: 1rem; background: linear-gradient(145deg, #ba764d, #77402b); color: white; }

@@ -1,5 +1,11 @@
 # Changelog
 
+## V6 — Directory cleanup and Mama photograph
+
+- Removed the duplicate placeholder cards for the unnamed black cat and black kitten after confirming Mama and Citam.
+- Updated Mama’s directory and profile views to use the existing `dist/assets/images/cats/mama-profile.jpg` photograph and adjusted its card framing to keep her face visible.
+- Retained the unidentified black-and-white/tuxedo cat card and cleaned up overlapping directory information.
+
 ## V6 — Confirmed Citam and Adik profiles
 
 - Added confirmed resident-cat profiles for Citam and Adik using the shared `cat-profile.html?cat=slug` route and centralized bilingual profile records.
