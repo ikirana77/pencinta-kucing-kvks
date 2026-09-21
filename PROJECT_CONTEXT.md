@@ -62,6 +62,13 @@ GitHub will be the source of truth for future changes. `dist/` contains the depl
 - `?lang=bm` and `?lang=en` override the saved choice and update it. A manual switch keeps an existing query parameter in sync.
 - The eight pages remain one static HTML set with BM source copy. A centralized dictionary in `dist/assets/site.js` supplies English text, accessible labels, page titles, and meta descriptions. No duplicated page architecture or framework is used.
 
+## Analytics
+
+- Google Analytics 4 is included on all eight pages with Measurement ID `G-EKW36JJMGR`.
+- GA4 automatic page views remain enabled through the standard `gtag.js` configuration.
+- The shared JavaScript sends `whatsapp_report_click`, `abdul_memorial_click`, and `language_switch` events with page path and language context as appropriate.
+- The implementation intentionally sends no names, phone numbers, email addresses, WhatsApp identities, message content, or other personal information.
+
 ## Directory and file structure at receipt
 
 ```text

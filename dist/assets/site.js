@@ -64,9 +64,10 @@
     // Directory and shared information panel
     'Kenali kucing yang': 'Meet the cats who',
     'menjadi sebahagian daripada KVKS.': 'are part of KVKS.',
-    'Kenali kucing melalui foto dan ciri yang kelihatan. Abdul telah dikenal pasti; label bagi tiga kucing lain menerangkan rupa mereka sementara nama dan maklumat individu belum disahkan.': 'Get to know the cats through photos and visible features. Abdul has been identified; the labels for the other three describe their appearance while their names and individual details remain unverified.',
+    'Kenali kucing melalui foto dan ciri yang kelihatan. Abdul, Mama, Citam dan Adik telah dikenal pasti; label bagi kucing lain menerangkan rupa mereka sementara nama dan maklumat individu belum disahkan.': 'Get to know the cats through photos and visible features. Abdul, Mama, Citam and Adik have been identified; the labels for the other cats describe their appearance while their names and individual details remain unverified.',
     'Maklumat sedang dikumpulkan': 'Information is being gathered',
     'Abdul dikenang dalam memorialnya. Nama, kawasan biasa dilihat dan status kebajikan tiga kucing lain belum disahkan.': 'Abdul is remembered on his memorial page. The names, usual areas and welfare status of the other three cats have not been verified.',
+    'Abdul dikenang dalam memorialnya. Mama, Citam dan Adik telah dikenal pasti; nama, kawasan biasa dilihat dan status kebajikan kucing lain belum disahkan.': 'Abdul is remembered on his memorial page. Mama, Citam and Adik have been identified; the names, usual areas and welfare status of the other cats have not been verified.',
     'Kucing dalam gambar': 'Cats in the photos',
     'Mudah dilihat, mudah dikenali.': 'Easy to spot, easier to recognise.',
     'Maklumat kucing akan dikemas kini apabila disahkan.': 'Cat information will be updated when verified.',
@@ -80,6 +81,16 @@
     'Anak kucing hitam': 'Black kitten',
     'Anak kucing berbulu hitam.': 'A kitten with black fur.',
     'Berbulu hitam putih, dengan dada dan kaki putih.': 'Black-and-white fur, with a white chest and paws.',
+    'Resident Cat · Ibu Kucing · ±1 Tahun': 'Resident Cat · Mother Cat · Approx. 1 Year',
+    'Boleh dibelai, tetapi Mama sangat jelas tentang satu perkara — jangan dukung dia. 😸': 'Gentle pets are welcome, but Mama is very clear about one thing — no carrying, please. 😸',
+    'Lihat profil Mama →': "View Mama's profile →",
+    'Perlukan ruang': 'Needs space',
+    'Anak Kucing · ±3 Bulan': 'Kitten · Approx. 3 Months',
+    'Anak Kucing': 'Kitten',
+    'Comel dari jauh dulu. Citam masih hissy dan belum selesa disentuh.': 'Cute from a distance for now. Citam is still hissy and not comfortable with touch.',
+    'Lihat profil Citam →': "View Citam's profile →",
+    'Mesra dengan manusia — boleh dibelai dan didukung dengan lembut.': 'Comfortable with people — gentle pets and carrying are okay.',
+    'Lihat profil Adik →': "View Adik's profile →",
     'JAGA MAKLUMAT SENSITIF': 'HANDLE SENSITIVE INFORMATION WITH CARE',
     'Kongsi yang perlu sahaja.': 'Share only what is needed.',
     'Kumpulan WhatsApp digunakan untuk berkongsi maklumat dan menyelaras tindakan apabila kucing memerlukan bantuan. Kongsi maklumat yang relevan seperti foto, lokasi, masa dan keadaan kucing mengikut keperluan kes. Gunakan pertimbangan apabila berkongsi maklumat sensitif, dan elakkan menyebarkannya di luar kumpulan tanpa sebab yang munasabah.': 'The WhatsApp group is used to share information and coordinate help when a cat needs it. Share relevant details such as photos, location, time and the cat’s condition according to the needs of each case. Use your judgment with sensitive information, and avoid sharing it outside the group without a good reason.',
@@ -89,6 +100,28 @@
     'Foto belum tersedia': 'Photo not yet available',
     'MAKLUMAT BELUM DISAHKAN': 'INFORMATION NOT YET VERIFIED',
     'Profil resident cat': 'Resident cat profile',
+    'Status': 'Status',
+    'Ibu kucing': 'Mother cat',
+    'Mama': 'Mama',
+    'Resident Cat · Ibu Kucing · Hitam': 'Resident Cat · Mother Cat · Black',
+    'Mama ialah ibu kucing hitam berusia anggaran sekitar satu tahun dan merupakan salah seekor resident cat di KVKS. Mama mudah dikenali dengan satu ciri istimewa — kaki belakang kirinya kudung. Walaupun begitu, Mama masih bergerak sendiri dan menjalani kehidupan seperti biasa di sekitar kawasan kolej.': 'Mama is an approximately one-year-old black mother cat and one of KVKS’s resident cats. She can be recognised by her amputated left hind leg. Despite this, Mama moves around independently and continues her daily life around the college.',
+    'Mama tidak suka didukung, jadi sebaiknya beri dia ruang dan jangan paksa mengangkatnya. Namun, jika didekati dengan tenang, Mama okay untuk dibelai.': 'Mama does not like being picked up, so please give her space and avoid lifting her. She is, however, comfortable with gentle petting when approached calmly.',
+    'Anggaran umur': 'Estimated age',
+    'Sekitar 1 tahun': 'Approximately 1 year old',
+    'Bulu': 'Coat',
+    'Hitam sepenuhnya': 'Solid black',
+    'Betina': 'Female',
+    'Ciri khas': 'Distinctive feature',
+    'Kaki belakang kiri kudung': 'Amputated left hind leg',
+    'Boleh dibelai': 'Okay to pet',
+    'Ya': 'Yes',
+    'Suka didukung': 'Likes being carried',
+    'Tidak': 'No',
+    'Belum direkodkan': 'Not yet recorded',
+    'Status spay': 'Spay status',
+    'Cara Mendekati Mama': 'How to Approach Mama',
+    'Nampak perubahan pada Mama?': 'Noticed a change in Mama?',
+    'Perhatikan dari jarak selamat dan maklumkan kepada komuniti atau seseorang yang boleh membantu.': 'Observe from a safe distance and tell the community or someone who can help.',
     'Status belum disahkan': 'Status not yet verified',
     'Nama belum diketahui': 'Name not yet known',
     'Profil ini akan dilengkapkan apabila kami menerima maklumat dan foto yang telah disahkan.': 'This profile will be completed when verified information and photos become available.',
@@ -229,6 +262,7 @@
     'Pencinta Kucing KVKS — They live here too.': 'Home — Pencinta Kucing KVKS | They live here too.',
     'Kucing Kami — Pencinta Kucing KVKS': 'Our Cats — Pencinta Kucing KVKS',
     'Profil Kucing — Pencinta Kucing KVKS': 'Cat Profile — Pencinta Kucing KVKS',
+    'Profil Mama — Pencinta Kucing KVKS': 'Mama Profile — Pencinta Kucing KVKS',
     'Perlukan Bantuan? — Pencinta Kucing KVKS': 'Need Help? — Pencinta Kucing KVKS',
     'Kisah Kami — Pencinta Kucing KVKS': 'Our Story — Pencinta Kucing KVKS',
     'Memorial Abdul — Pencinta Kucing KVKS': "Abdul's Memorial — Pencinta Kucing KVKS",
@@ -237,6 +271,7 @@
     'Tempat warga KVKS mengenali resident cats, berkongsi maklumat dan sama-sama menjaga kebajikan mereka.': 'A place for the KVKS community to get to know resident cats, share information and care for their welfare together.',
     'Kenali resident cats yang biasa kita lihat di sekitar KVKS.': 'Meet the resident cats seen around KVKS.',
     'Profil resident cat KVKS.': 'A KVKS resident cat profile.',
+    'Profil Mama, resident cat KVKS.': 'A profile of Mama, a KVKS resident cat.',
     'Panduan ringkas apabila menjumpai kucing KVKS yang sakit atau cedera.': 'A quick guide for finding a sick or injured cat at KVKS.',
     'Kisah penubuhan Pencinta Kucing KVKS, bermula daripada Abdul.': 'The story of Pencinta Kucing KVKS, beginning with Abdul.',
     'Memorial Abdul, salah seekor resident cats KVKS.': 'A memorial to Abdul, one of the resident cats of KVKS.',
@@ -246,6 +281,8 @@
     'Navigasi utama': 'Main navigation',
     'Prinsip komuniti': 'Community principles',
     'Pilih bahasa': 'Choose language',
+    'Panduan interaksi': 'Interaction guidance',
+    'Bahasa Malaysia': 'Malay',
     'Kolaj kucing di sekitar kampus KVKS': 'Collage of cats around the KVKS campus',
     'Potret Abdul, kucing oren': 'Portrait of Abdul, an orange cat',
     'Potret kucing hitam bermata jingga': 'Portrait of a black cat with orange eyes',
@@ -255,10 +292,62 @@
     'Gambar kucing dalam direktori': 'Cat photos in the directory',
     'Abdul, kucing berbulu oren duduk di laluan': 'Abdul, an orange cat sitting on a pathway',
     'Kucing hitam putih dengan dada dan kaki putih': 'Black-and-white cat with a white chest and paws',
+    'Mama, ibu kucing hitam resident cat KVKS': 'Mama, a black mother cat and KVKS resident cat',
+    'Citam, anak kucing hitam bermata kelabu': 'Citam, a black kitten with grey eyes',
+    'Adik, anak kucing bermata oren': 'Adik, a kitten with orange eyes',
     'Sertai grup WhatsApp Pencinta Kucing KVKS dan buat laporan — dibuka dalam tab baharu': 'Join the Pencinta Kucing KVKS WhatsApp group and report — opens in a new tab',
     'Abdul, kucing oren residen KVKS, berdiri di laluan kampus': 'Abdul, an orange KVKS resident cat, standing on a campus pathway',
     'Kucing hitam bermata jingga duduk di laluan': 'Black cat with orange eyes sitting on a pathway',
     'Anak kucing berbulu hitam duduk di laluan': 'Black kitten sitting on a pathway'
+  };
+
+  // Confirmed resident-cat records used by the shared profile route: cat-profile.html?cat=slug.
+  const profileRecords = {
+    mama: {
+      title: 'Mama', subtitle: { bm: 'Resident Cat · Ibu Kucing · Hitam', en: 'Resident Cat · Mother Cat · Black' }, status: { bm: 'Ibu kucing', en: 'Mother cat' },
+      alt: { bm: 'Mama, ibu kucing hitam resident cat KVKS', en: 'Mama, a black mother cat and KVKS resident cat' },
+      images: { primary: 'assets/images/cats/mama-profile.jpg', detail: 'assets/images/cats/mama-detail.jpg' },
+      intro: {
+        bm: ['Mama ialah ibu kucing hitam berusia anggaran sekitar satu tahun dan merupakan salah seekor resident cat di KVKS. Mama mudah dikenali dengan satu ciri istimewa — kaki belakang kirinya kudung. Walaupun begitu, Mama masih bergerak sendiri dan menjalani kehidupan seperti biasa di sekitar kawasan kolej.', 'Mama tidak suka didukung, jadi sebaiknya beri dia ruang dan jangan paksa mengangkatnya. Namun, jika didekati dengan tenang, Mama okay untuk dibelai.'],
+        en: ['Mama is an approximately one-year-old black mother cat and one of KVKS’s resident cats. She can be recognised by her amputated left hind leg. Despite this, Mama moves around independently and continues her daily life around the college.', 'Mama does not like being picked up, so please give her space and avoid lifting her. She is, however, comfortable with gentle petting when approached calmly.']
+      },
+      badges: { bm: ['Boleh dibelai', 'Tidak suka didukung'], en: ['Okay to pet', 'Does not like being carried'] },
+      facts: {
+        bm: [['Anggaran umur', 'Sekitar 1 tahun'], ['Bulu', 'Hitam sepenuhnya'], ['Jantina', 'Betina'], ['Ciri khas', 'Kaki belakang kiri kudung'], ['Boleh dibelai', 'Ya'], ['Suka didukung', 'Tidak'], ['Status', 'Ibu kucing'], ['Kawasan biasa dilihat', 'Belum direkodkan'], ['Status spay', 'Belum diketahui']],
+        en: [['Estimated age', 'Approximately 1 year old'], ['Coat', 'Solid black'], ['Sex', 'Female'], ['Distinctive feature', 'Amputated left hind leg'], ['Okay to pet', 'Yes'], ['Likes being carried', 'No'], ['Status', 'Mother cat'], ['Usual area', 'Not yet recorded'], ['Spay status', 'Unknown']]
+      },
+      guidance: { bm: ['Cara Mendekati Mama', 'Dekati Mama secara perlahan dan beri dia peluang untuk membiasakan diri terlebih dahulu. Mama boleh dibelai dengan lembut, tetapi jangan cuba mendukungnya.'], en: ['How to Approach Mama', 'Approach Mama slowly and give her time to become comfortable with your presence. Gentle petting is okay, but please do not try to pick her up.'] },
+      action: { bm: 'Nampak perubahan pada Mama?', en: 'Noticed a change in Mama?' },
+      description: { bm: 'Profil Mama, resident cat KVKS.', en: 'A profile of Mama, a KVKS resident cat.' }
+    },
+    citam: {
+      title: 'Citam', subtitle: { bm: 'Resident Cat · Anak Kucing · ±3 Bulan', en: 'Resident Cat · Kitten · Approx. 3 Months' }, status: { bm: 'Anak kucing', en: 'Kitten' },
+      alt: { bm: 'Citam, anak kucing hitam bermata kelabu', en: 'Citam, a black kitten with grey eyes' },
+      images: { primary: 'assets/hero-cat-black-kitten.webp', detail: null },
+      intro: { bm: ['Citam ialah anak kucing berwarna hitam dengan mata kelabu, berusia anggaran sekitar 3 bulan. Citam masih belum selesa dengan sentuhan manusia dan cenderung bersikap defensive apabila didekati terlalu rapat.'], en: ['Citam is a black kitten with grey eyes, estimated to be around 3 months old. Citam is still uncomfortable with human touch and can become defensive when approached too closely.'] },
+      badges: { bm: ['Jangan sentuh dahulu', 'Perlukan ruang'], en: ['Do not pet yet', 'Needs space'] },
+      facts: {
+        bm: [['Anggaran umur', 'Sekitar 3 bulan'], ['Warna', 'Hitam'], ['Warna mata', 'Kelabu'], ['Perangai', 'Hissy / defensive'], ['Boleh dibelai', 'Tidak'], ['Boleh didukung', 'Tidak'], ['Perlu berhati-hati', 'Ya — boleh mencakar dan menggigit'], ['Jantina', 'Belum diketahui'], ['Kawasan biasa dilihat', 'Belum direkodkan'], ['Status spay/neuter', 'Belum diketahui']],
+        en: [['Estimated age', 'Approximately 3 months'], ['Coat', 'Black'], ['Eye colour', 'Grey'], ['Temperament', 'Hissy / defensive'], ['Okay to pet', 'No'], ['Okay to carry', 'No'], ['Use caution', 'Yes — may scratch or bite'], ['Sex', 'Unknown'], ['Usual area', 'Not yet recorded'], ['Spay/neuter status', 'Unknown']]
+      },
+      guidance: { bm: ['Cara Mendekati Citam', 'Beri Citam ruang dan elakkan cuba menyentuh atau mendukungnya. Citam boleh mendesis, mencakar atau menggigit apabila berasa terancam. Dekati hanya jika perlu dan jangan paksa interaksi.'], en: ['How to Approach Citam', 'Give Citam space and avoid trying to touch or pick the kitten up. Citam may hiss, scratch, or bite when feeling threatened. Approach only when necessary and do not force interaction.'] },
+      action: { bm: 'Nampak perubahan pada Citam?', en: 'Noticed a change in Citam?' },
+      description: { bm: 'Profil Citam, anak kucing resident cat KVKS.', en: 'A profile of Citam, a KVKS resident kitten.' }
+    },
+    adik: {
+      title: 'Adik', subtitle: { bm: 'Resident Cat · Anak Kucing', en: 'Resident Cat · Kitten' }, status: { bm: 'Anak kucing', en: 'Kitten' },
+      alt: { bm: 'Adik, anak kucing bermata oren', en: 'Adik, a kitten with orange eyes' },
+      images: { primary: 'assets/hero-cat-black-family.webp', detail: null },
+      intro: { bm: ['Adik ialah anak kucing bermata oren yang selesa berinteraksi dengan manusia. Berbanding sesetengah anak kucing lain yang masih berhati-hati, Adik boleh dibelai dan juga didukung dengan lembut.'], en: ['Adik is an orange-eyed kitten that is comfortable around people. Unlike some kittens that are still cautious around human touch, Adik can be gently petted and carried.'] },
+      badges: { bm: ['Boleh dibelai', 'Boleh didukung'], en: ['Okay to pet', 'Okay to carry'] },
+      facts: {
+        bm: [['Warna mata', 'Oren'], ['Boleh dibelai', 'Ya'], ['Boleh didukung', 'Ya'], ['Anggaran umur', 'Belum diketahui'], ['Jantina', 'Belum diketahui'], ['Kawasan biasa dilihat', 'Belum direkodkan'], ['Status spay/neuter', 'Belum diketahui']],
+        en: [['Eye colour', 'Orange'], ['Okay to pet', 'Yes'], ['Okay to carry', 'Yes'], ['Estimated age', 'Unknown'], ['Sex', 'Unknown'], ['Usual area', 'Not yet recorded'], ['Spay/neuter status', 'Unknown']]
+      },
+      guidance: { bm: ['Cara Mendekati Adik', 'Adik selesa dengan sentuhan manusia dan boleh dibelai atau didukung dengan lembut. Walaupun begitu, sentiasa perhatikan bahasa badan kucing dan lepaskan Adik jika dia mula menunjukkan tanda tidak selesa.'], en: ['How to Approach Adik', 'Adik is comfortable with human touch and can be gently petted or carried. Even so, always watch the kitten’s body language and put Adik down if any signs of discomfort appear.'] },
+      action: { bm: 'Nampak perubahan pada Adik?', en: 'Noticed a change in Adik?' },
+      description: { bm: 'Profil Adik, anak kucing resident cat KVKS.', en: 'A profile of Adik, a KVKS resident kitten.' }
+    }
   };
 
   document.querySelectorAll('[data-year]').forEach((node) => {
@@ -267,6 +356,30 @@
 
   document.querySelectorAll('[data-nav]').forEach((link) => {
     if (link.dataset.nav === currentPage) link.setAttribute('aria-current', 'page');
+  });
+
+  // GA4 custom events use only page context and language; no personal information is sent.
+  const trackEvent = (name, parameters) => {
+    if (typeof window.gtag === 'function') window.gtag('event', name, parameters);
+  };
+  const currentLanguage = () => document.documentElement.lang === 'en' ? 'en' : 'bm';
+  const pagePath = () => window.location.pathname;
+
+  document.querySelectorAll('a[href]').forEach((link) => {
+    if (link.dataset.analyticsBound === 'true') return;
+    const href = link.getAttribute('href') || '';
+    const isWhatsAppReport = href.startsWith('https://chat.whatsapp.com/');
+    const isAbdulMemorial = href.split(/[?#]/, 1)[0].endsWith('abdul-memorial.html');
+    if (!isWhatsAppReport && !isAbdulMemorial) return;
+    link.dataset.analyticsBound = 'true';
+    link.addEventListener('click', () => {
+      if (isWhatsAppReport) {
+        trackEvent('whatsapp_report_click', { page_path: pagePath(), language: currentLanguage() });
+      }
+      if (isAbdulMemorial) {
+        trackEvent('abdul_memorial_click', { page_path: pagePath(), language: currentLanguage() });
+      }
+    });
   });
 
   const languageKey = 'pkkvks-language';
@@ -332,18 +445,70 @@
     updateMenuLabel(language);
   };
 
+  const renderProfile = (language, key) => {
+    const profileLayout = document.querySelector('.profile-layout');
+    const profile = profileRecords[key] || profileRecords.mama;
+    if (!profileLayout) return;
+    document.body.dataset.profileCat = profile === profileRecords.mama ? 'mama' : key;
+    const primaryImage = document.querySelector('.profile-photo-frame img');
+    const detailFigure = document.querySelector('.profile-detail-photo');
+    const detailImage = detailFigure?.querySelector('img');
+    const title = document.querySelector('.profile-title h1');
+    const subtitle = document.querySelector('.profile-subtitle');
+    const status = document.querySelector('.profile-title .status');
+    const intro = [...document.querySelectorAll('[data-profile-intro]')];
+    const badges = document.querySelector('.interaction-badges');
+    const facts = document.querySelector('.fact-list');
+    const guidanceHeading = document.querySelector('[data-profile-guidance-heading]');
+    const guidance = document.querySelector('[data-profile-guidance]');
+    const actionHeading = document.querySelector('[data-profile-action-heading]');
+    if (primaryImage) { primaryImage.src = profile.images.primary; primaryImage.alt = profile.alt[language]; }
+    if (detailFigure && detailImage) {
+      detailFigure.hidden = !profile.images.detail;
+      if (profile.images.detail) { detailImage.src = profile.images.detail; detailImage.alt = profile.alt[language]; }
+    }
+    if (title) title.textContent = profile.title;
+    if (subtitle) subtitle.textContent = profile.subtitle[language];
+    if (status) status.textContent = profile.status[language];
+    intro.forEach((node, index) => { node.hidden = !profile.intro[language][index]; if (profile.intro[language][index]) node.textContent = profile.intro[language][index]; });
+    if (badges) {
+      badges.setAttribute('aria-label', language === 'en' ? 'Interaction guidance' : 'Panduan interaksi');
+      badges.dataset.tone = key === 'citam' ? 'caution' : 'friendly';
+      badges.replaceChildren(...profile.badges[language].map((label) => { const badge = document.createElement('span'); badge.textContent = label; return badge; }));
+    }
+    if (facts) {
+      facts.replaceChildren(...profile.facts[language].map(([label, value]) => {
+        const row = document.createElement('div');
+        const dt = document.createElement('dt'); dt.textContent = label;
+        const dd = document.createElement('dd'); dd.textContent = value;
+        row.append(dt, dd); return row;
+      }));
+    }
+    if (guidanceHeading) guidanceHeading.textContent = profile.guidance[language][0];
+    if (guidance) guidance.textContent = profile.guidance[language][1];
+    if (actionHeading) actionHeading.textContent = profile.action[language];
+    document.title = `${profile.title} — Pencinta Kucing KVKS`;
+    if (metaDescription) metaDescription.content = profile.description[language];
+  };
+
   // A valid URL choice wins for this visit and is saved; first visits otherwise start in BM.
   const queryLanguage = new URLSearchParams(window.location.search).get('lang');
   const initialLanguage = ['bm', 'en'].includes(queryLanguage)
     ? queryLanguage
     : (['bm', 'en'].includes(savedLanguage()) ? savedLanguage() : 'bm');
+  const profileKey = new URLSearchParams(window.location.search).get('cat');
   if (['bm', 'en'].includes(queryLanguage)) saveLanguage(queryLanguage);
   applyLanguage(initialLanguage);
+  renderProfile(initialLanguage, profileKey);
 
   // Buttons are native keyboard controls. Keep an existing URL override in sync with manual choice.
   languageButtons.forEach((button) => {
+    if (button.dataset.analyticsBound === 'true') return;
+    button.dataset.analyticsBound = 'true';
     button.addEventListener('click', () => {
       const language = button.dataset.language;
+      const previousLanguage = currentLanguage();
+      if (language === previousLanguage) return;
       saveLanguage(language);
       if (['bm', 'en'].includes(new URLSearchParams(window.location.search).get('lang'))) {
         const url = new URL(window.location.href);
@@ -351,6 +516,12 @@
         history.replaceState(history.state, '', url);
       }
       applyLanguage(language);
+      renderProfile(language, profileKey);
+      trackEvent('language_switch', {
+        selected_language: language,
+        previous_language: previousLanguage,
+        page_path: pagePath()
+      });
     });
   });
 

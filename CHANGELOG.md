@@ -1,5 +1,23 @@
 # Changelog
 
+## V6 — Confirmed Citam and Adik profiles
+
+- Added confirmed resident-cat profiles for Citam and Adik using the shared `cat-profile.html?cat=slug` route and centralized bilingual profile records.
+- Added Citam’s approximate three-month age, grey eyes, defensive/hissy temperament, calm no-touch guidance, and explicit unknown fields. Added Adik’s orange-eye identifier and friendly petting and carrying guidance while keeping age and other unknown fields explicit.
+- Added both directory cards, interaction badges, BM/English copy, and reused the existing `hero-cat-black-kitten.webp` and `hero-cat-black-family.webp` assets. Existing Mama and Abdul content remains unchanged.
+
+## V6 — Confirmed Mama resident-cat profile
+
+- Added Mama as a confirmed resident cat in the directory with an estimated age of approximately one year, female sex, solid black coat, amputated left hind leg, temperament guidance, and explicitly unknown spay and usual-area fields.
+- Updated the shared cat profile template with Mama’s BM/English profile, interaction guidance, primary and secondary image paths, alt text, and responsive image framing.
+- Added the Mama directory card and kept Abdul’s Memorial and all locked Abdul content unchanged. The requested Mama photographs are not yet present in the repository and still need to be copied into `dist/assets/images/cats/`.
+
+## V6 — Google Analytics 4 tracking
+
+- Added the GA4 `gtag.js` snippet with Measurement ID `G-EKW36JJMGR` to all eight pages; automatic page views remain enabled.
+- Added safe shared event tracking for WhatsApp reporting clicks, Abdul Memorial links, and manual BM/EN switches without sending personal information or duplicate page views.
+- Documented the analytics scope and privacy boundary in `PROJECT_CONTEXT.md`.
+
 ## V6 — Abdul story chronology correction
 
 - Corrected the Our Story account to say students were asked to inform lecturers while Abdul was being sought, before Pencinta Kucing KVKS existed.

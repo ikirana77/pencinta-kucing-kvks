@@ -169,11 +169,19 @@ p { margin: 0 0 1.25rem; }
 .profile-hero { padding-block: 2.5rem 5rem; }
 .back-link { display: inline-block; margin-bottom: 2.5rem; color: var(--muted); font-size: .83rem; font-weight: 700; }
 .profile-layout { display: grid; gap: 2.5rem; align-items: center; }
+.profile-photo-frame { min-width: 0; margin: 0; overflow: hidden; border-radius: 1rem; background: var(--ivory); box-shadow: var(--shadow); }
+.profile-photo-frame img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }
 .profile-large { min-height: 26rem; }
 .profile-title h1 { margin: 1rem 0; font-family: var(--serif); font-size: clamp(3.2rem, 9vw, 6.5rem); font-weight: 500; letter-spacing: -.055em; line-height: .98; }
 .profile-title p { max-width: 35rem; color: var(--muted); }
+.profile-title .profile-subtitle { margin-top: -1rem; color: var(--orange-dark); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.interaction-badges { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.4rem; }
+.interaction-badges span { padding: .35rem .65rem; border: 1px solid var(--line); border-radius: 999px; color: var(--sage-dark); background: var(--ivory); font-size: .72rem; font-weight: 700; }
+.interaction-badges[data-tone="caution"] span { color: var(--orange-dark); background: #f0ddc6; }
 .profile-content { display: grid; gap: 3rem; padding-block: 5rem; border-top: 1px solid var(--line); }
 .profile-content h2 { font-size: clamp(2rem, 4vw, 3.1rem); }
+.profile-detail-photo { margin: 2rem 0; overflow: hidden; border-radius: 1rem; background: var(--ivory); }
+.profile-detail-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: center; }
 .fact-list div { display: grid; grid-template-columns: 1fr 1.2fr; gap: 1rem; padding-block: 1rem; border-top: 1px solid var(--line); }
 .fact-list dt { color: var(--muted); }.fact-list dd { margin: 0; font-weight: 600; }
 .placeholder-copy { padding: 1.4rem; border-left: 4px solid var(--sand); background: var(--ivory); color: var(--muted); }
