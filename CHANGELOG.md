@@ -1,5 +1,16 @@
 # Changelog
 
+## V6 — Normalize shared cat profile rendering
+
+- Replaced profile-specific image ratio overrides with one natural-ratio renderer for all cat profiles.
+- Reduced the desktop profile image column and removed forced image height and cover cropping.
+- Versioned stylesheet and site script references to refresh deployed profile CSS and badge rendering.
+
+## V6 — Correct Mama portrait layout
+
+- Changed Mama’s profile hero to an intrinsic portrait layout that preserves the source image ratio without forced height, cover cropping or stretching.
+- Anchored the portrait column to the top of the editorial grid and separated the interaction badges with consistent spacing.
+
 ## V6 — Mama portrait profile rendering
 
 - Preserved Mama’s portrait aspect ratio on the full profile and detail image views so the photograph is not aggressively cropped or zoomed.

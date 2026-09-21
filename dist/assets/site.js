@@ -459,8 +459,6 @@
     const guidanceHeading = document.querySelector('[data-profile-guidance-heading]');
     const guidance = document.querySelector('[data-profile-guidance]');
     const actionHeading = document.querySelector('[data-profile-action-heading]');
-    const portraitNodes = [primaryImage?.closest('.profile-photo-frame'), detailFigure].filter(Boolean);
-    portraitNodes.forEach((node) => node.classList.toggle('profile-portrait', profile === profileRecords.mama));
     if (primaryImage) { primaryImage.src = profile.images.primary; primaryImage.alt = profile.alt[language]; }
     if (detailFigure && detailImage) {
       detailFigure.hidden = !profile.images.detail;
